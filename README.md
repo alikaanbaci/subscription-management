@@ -272,11 +272,11 @@ Available on all services.
 
 The system seeds three plans on startup:
 
-| planId | code | name | price | currency | billingPeriodDays |
-|---|---|---|---:|---|---:|
-| `1` | `basic` | Basic Plan | `9.99` | `USD` | `30` |
-| `2` | `pro` | Pro Plan | `19.99` | `USD` | `30` |
-| `3` | `enterprise` | Enterprise Plan | `49.99` | `USD` | `30` |
+| planId | code         | name            |   price | currency | billingPeriodDays |
+| ------ | ------------ | --------------- | ------: | -------- | ----------------: |
+| `1`    | `basic`      | Basic Plan      |  `9.99` | `USD`    |              `30` |
+| `2`    | `pro`        | Pro Plan        | `19.99` | `USD`    |              `30` |
+| `3`    | `enterprise` | Enterprise Plan | `49.99` | `USD`    |              `30` |
 
 ## Documentation
 
@@ -288,11 +288,6 @@ Detailed documents remain under `docs/`:
 - [Distributed Transaction Strategy](docs/distributed-transaction.md)
 - [Assumptions](docs/assumptions.md)
 - [Runbook](docs/runbook.md)
-
-Request helpers:
-
-- [HTTP Requests](http/subscription-api.http)
-- [Postman Collection](postman/subsys.postman_collection.json)
 
 ## Assumptions and Non-Goals
 
